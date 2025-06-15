@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		196F24D12DFE838200A6B3DC /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = 196F24D02DFE838200A6B3DC /* Shimmer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		196F22FD2DFD0E7600A6B3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 196F22E42DFD0E7400A6B3DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196F22EB2DFD0E7400A6B3DC;
+			remoteInfo = FayInterview;
+		};
+		196F23072DFD0E7600A6B3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 196F22E42DFD0E7400A6B3DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196F22EB2DFD0E7400A6B3DC;
+			remoteInfo = FayInterview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		196F22EC2DFD0E7400A6B3DC /* FayInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FayInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		196F22FC2DFD0E7600A6B3DC /* FayInterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FayInterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		196F23062DFD0E7600A6B3DC /* FayInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FayInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		196F22EE2DFD0E7400A6B3DC /* FayInterview */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FayInterview;
+			sourceTree = "<group>";
+		};
+		196F22FF2DFD0E7600A6B3DC /* FayInterviewTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FayInterviewTests;
+			sourceTree = "<group>";
+		};
+		196F23092DFD0E7600A6B3DC /* FayInterviewUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FayInterviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		196F22E92DFD0E7400A6B3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196F24D12DFE838200A6B3DC /* Shimmer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196F22F92DFD0E7600A6B3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196F23032DFD0E7600A6B3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		196F22E32DFD0E7400A6B3DC = {
+			isa = PBXGroup;
+			children = (
+				196F22EE2DFD0E7400A6B3DC /* FayInterview */,
+				196F22FF2DFD0E7600A6B3DC /* FayInterviewTests */,
+				196F23092DFD0E7600A6B3DC /* FayInterviewUITests */,
+				196F22ED2DFD0E7400A6B3DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		196F22ED2DFD0E7400A6B3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				196F22EC2DFD0E7400A6B3DC /* FayInterview.app */,
+				196F22FC2DFD0E7600A6B3DC /* FayInterviewTests.xctest */,
+				196F23062DFD0E7600A6B3DC /* FayInterviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		196F22EB2DFD0E7400A6B3DC /* FayInterview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196F23102DFD0E7600A6B3DC /* Build configuration list for PBXNativeTarget "FayInterview" */;
+			buildPhases = (
+				196F22E82DFD0E7400A6B3DC /* Sources */,
+				196F22E92DFD0E7400A6B3DC /* Frameworks */,
+				196F22EA2DFD0E7400A6B3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				196F22EE2DFD0E7400A6B3DC /* FayInterview */,
+			);
+			name = FayInterview;
+			packageProductDependencies = (
+				196F24D02DFE838200A6B3DC /* Shimmer */,
+			);
+			productName = FayInterview;
+			productReference = 196F22EC2DFD0E7400A6B3DC /* FayInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		196F22FB2DFD0E7600A6B3DC /* FayInterviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196F23132DFD0E7600A6B3DC /* Build configuration list for PBXNativeTarget "FayInterviewTests" */;
+			buildPhases = (
+				196F22F82DFD0E7600A6B3DC /* Sources */,
+				196F22F92DFD0E7600A6B3DC /* Frameworks */,
+				196F22FA2DFD0E7600A6B3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196F22FE2DFD0E7600A6B3DC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				196F22FF2DFD0E7600A6B3DC /* FayInterviewTests */,
+			);
+			name = FayInterviewTests;
+			packageProductDependencies = (
+			);
+			productName = FayInterviewTests;
+			productReference = 196F22FC2DFD0E7600A6B3DC /* FayInterviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		196F23052DFD0E7600A6B3DC /* FayInterviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196F23162DFD0E7600A6B3DC /* Build configuration list for PBXNativeTarget "FayInterviewUITests" */;
+			buildPhases = (
+				196F23022DFD0E7600A6B3DC /* Sources */,
+				196F23032DFD0E7600A6B3DC /* Frameworks */,
+				196F23042DFD0E7600A6B3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196F23082DFD0E7600A6B3DC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				196F23092DFD0E7600A6B3DC /* FayInterviewUITests */,
+			);
+			name = FayInterviewUITests;
+			packageProductDependencies = (
+			);
+			productName = FayInterviewUITests;
+			productReference = 196F23062DFD0E7600A6B3DC /* FayInterviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		196F22E42DFD0E7400A6B3DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					196F22EB2DFD0E7400A6B3DC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					196F22FB2DFD0E7600A6B3DC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 196F22EB2DFD0E7400A6B3DC;
+					};
+					196F23052DFD0E7600A6B3DC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 196F22EB2DFD0E7400A6B3DC;
+					};
+				};
+			};
+			buildConfigurationList = 196F22E72DFD0E7400A6B3DC /* Build configuration list for PBXProject "FayInterview" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 196F22E32DFD0E7400A6B3DC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				196F24CF2DFE838200A6B3DC /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 196F22ED2DFD0E7400A6B3DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				196F22EB2DFD0E7400A6B3DC /* FayInterview */,
+				196F22FB2DFD0E7600A6B3DC /* FayInterviewTests */,
+				196F23052DFD0E7600A6B3DC /* FayInterviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		196F22EA2DFD0E7400A6B3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196F22FA2DFD0E7600A6B3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196F23042DFD0E7600A6B3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		196F22E82DFD0E7400A6B3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196F22F82DFD0E7600A6B3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196F23022DFD0E7600A6B3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		196F22FE2DFD0E7600A6B3DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 196F22EB2DFD0E7400A6B3DC /* FayInterview */;
+			targetProxy = 196F22FD2DFD0E7600A6B3DC /* PBXContainerItemProxy */;
+		};
+		196F23082DFD0E7600A6B3DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 196F22EB2DFD0E7400A6B3DC /* FayInterview */;
+			targetProxy = 196F23072DFD0E7600A6B3DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196F230E2DFD0E7600A6B3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		196F230F2DFD0E7600A6B3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		196F23112DFD0E7600A6B3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FayInterview/Preview Content\"";
+				DEVELOPMENT_TEAM = TZ93VW7Y2X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shawna.FayInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		196F23122DFD0E7600A6B3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FayInterview/Preview Content\"";
+				DEVELOPMENT_TEAM = TZ93VW7Y2X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shawna.FayInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		196F23142DFD0E7600A6B3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZ93VW7Y2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shawna.FayInterviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FayInterview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FayInterview";
+			};
+			name = Debug;
+		};
+		196F23152DFD0E7600A6B3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZ93VW7Y2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shawna.FayInterviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FayInterview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FayInterview";
+			};
+			name = Release;
+		};
+		196F23172DFD0E7600A6B3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZ93VW7Y2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shawna.FayInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FayInterview;
+			};
+			name = Debug;
+		};
+		196F23182DFD0E7600A6B3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZ93VW7Y2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shawna.FayInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FayInterview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		196F22E72DFD0E7400A6B3DC /* Build configuration list for PBXProject "FayInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196F230E2DFD0E7600A6B3DC /* Debug */,
+				196F230F2DFD0E7600A6B3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196F23102DFD0E7600A6B3DC /* Build configuration list for PBXNativeTarget "FayInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196F23112DFD0E7600A6B3DC /* Debug */,
+				196F23122DFD0E7600A6B3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196F23132DFD0E7600A6B3DC /* Build configuration list for PBXNativeTarget "FayInterviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196F23142DFD0E7600A6B3DC /* Debug */,
+				196F23152DFD0E7600A6B3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196F23162DFD0E7600A6B3DC /* Build configuration list for PBXNativeTarget "FayInterviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196F23172DFD0E7600A6B3DC /* Debug */,
+				196F23182DFD0E7600A6B3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		196F24CF2DFE838200A6B3DC /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/markiv/SwiftUI-Shimmer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		196F24D02DFE838200A6B3DC /* Shimmer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 196F24CF2DFE838200A6B3DC /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */;
+			productName = Shimmer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 196F22E42DFD0E7400A6B3DC /* Project object */;
+}
